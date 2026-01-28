@@ -1,0 +1,22 @@
+
+body {
+  margin: 0px;
+  font-family: 'Mocano', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: rgb(0, 0, 0);
+  color:black;
+}
+
+.box{
+    position: relative;
+    flex: 1;
+    margin: auto;
+    margin-top: 6vh;
+    align-items: center;
+    text-align: center;
+    background-image:url('paperbg.png');
+    background-position: center;      
+    border-radius: 10px;
+    width: 700px;
+    height: 2000px;
+    overflow: hidden;
+} 
