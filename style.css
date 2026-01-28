@@ -1,7 +1,7 @@
 
 body {
   margin: 0px;
-  font-family: 'Mocano', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background: rgb(0, 0, 0);
   color:black;
 }
@@ -18,5 +18,23 @@ body {
     border-radius: 10px;
     width: 700px;
     height: 2000px;
+    overflow: hidden;
+} 
+
+.inBox{
+    position: relative;
+    flex: 1;
+    margin: auto;
+    margin-top: 6vh;
+    align-items: center;
+    text-align: center;
+    background-color: none;
+    background-position: center;      
+    border-radius: 10px;
+    box-shadow: 10px;
+    outline: black 4px;
+    outline-style: dashed;
+    width: 500px;
+    height: 500px;
     overflow: hidden;
 } 
