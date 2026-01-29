@@ -7,31 +7,48 @@ const displayAnswer = (e) => {
     const Answer = e.target.value;
 
      if (Answer == "1"){
-    radioOutput1.innerHTML = `<p>Whoa! 👀</p>`
+    radioOutput1.innerHTML = `<p>You picked 1! 👀</p>`
     radioOutput2.innerHTML = 
     `<p>Neat, right? How did the "Choose One." text change?</p>
-    <p>Well, lemme show you. :D</p>
-    <h6 style="transform: translate(0%, 100%)">(For sake of time, only example for choice one will be shown.)</h6>
-    <p><img src="radioSS1.png" alt="Code" width="450" height="80"></p>
-    <p style="transform: translate(0%, -6%)"><img src="radioSS2.png" alt="Code" width="450" height="245"></p>`
+    <p style="transform: translate(0%, -40%)">Well, lemme show you. :D</p>
+    <h6 style="transform: translate(0%, 100%)">(HTML & JavaScript shown respectively.)</h6>
+    <div class = inInBox><p><img src="radioSS1.png" alt="HTML Code" width="450" height="80"></p>
+    <p><img src="radioSS2.png" alt="JavaScript Code" width="450" height="245"></p></div>
+    <p>The total outcome of these lines of code result in the ability to not only change text, but continously change it. Go ahead and choose another answer! ;D</p>`
 
 radioInput.addEventListener('change', displayAnswer);
 
 
     } else if (Answer == "2"){
-    radioOutput1.innerHTML = `<p>You picked checkbox 2.</p>`
-    radioOutput2.innerHTML = `<p>You picked checkbox 1.</p>`
+    radioOutput1.innerHTML = `<p>You picked 2! </p>`
+    radioOutput2.innerHTML = 
+    `<p>Neat, right? How did the "Choose One." text change?</p>
+    <p style="transform: translate(0%, -40%)">Well, lemme show you. :D</p>
+    <h6 style="transform: translate(0%, 100%)">(HTML & JavaScript shown respectively.)</h6>
+    <div class = inInBox><p><img src="radioSS1.png" alt="HTML Code" width="450" height="80"></p>
+    <p><img src="radioSS2.png" alt="JavaScript Code" width="450" height="245"></p></div>
+    <p>The total outcome of these lines of code result in the ability to not only change text, but continously change it. Go ahead and choose another answer! ;D</p>`
 
     } else if (Answer == "3"){
-    radioOutput1.innerHTML = `<p>You picked checkbox 3.</p>`
-    radioOutput2.innerHTML = `<p>You picked checkbox 1.</p>`
+    radioOutput1.innerHTML = `<p>You picked 3! </p>`
+    radioOutput2.innerHTML = 
+    `<p>Neat, right? How did the "Choose One." text change?</p>
+    <p style="transform: translate(0%, -40%)">Well, lemme show you. :D</p>
+    <h6 style="transform: translate(0%, 100%)">(HTML & JavaScript shown respectively.)</h6>
+    <div class = inInBox><p><img src="radioSS1.png" alt="HTML Code" width="450" height="80"></p>
+    <p><img src="radioSS2.png" alt="JavaScript Code" width="450" height="245"></p></div>
+    <p>The total outcome of these lines of code result in the ability to not only change text, but continously change it. Go ahead and choose another answer! ;D</p>`
 
     } else if (Answer == "4"){
     radioOutput1.innerHTML = `<p>🧑‍🦯</p>`
     radioOutput2.innerHTML = 
-    `<p>Look, a blind person. Wanna know how I found him?</p>
-    <p>Here.</p>`
-
+    radioOutput2.innerHTML = 
+    `<p>Neat, right? How did the "Choose One." text change?</p>
+    <p style="transform: translate(0%, -40%)">Well, lemme show you. :D</p>
+    <h6 style="transform: translate(0%, 100%)">(HTML & JavaScript shown respectively.)</h6>
+    <div class = inInBox><p><img src="radioSS1.png" alt="HTML Code" width="450" height="80"></p>
+    <p><img src="radioSS2.png" alt="JavaScript Code" width="450" height="245"></p></div>
+    <p>The total outcome of these lines of code result in the ability to not only change text, but continously change it. Go ahead and choose another answer! ;D</p>`
     }
 };
 
