@@ -1,9 +1,10 @@
 
 body {
   margin: 0px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Courier New', Courier, monospace, 'Times New Roman', Times, serif, sans-serif, Arial;
   background: rgb(0, 0, 0);
   color:black;
+  font-weight: bolder;
 }
 
 .box{
@@ -28,13 +29,30 @@ body {
     margin-top: 6vh;
     align-items: center;
     text-align: center;
-    background-color: none;
+    background-color:#f0f5ff;
     background-position: center;      
     border-radius: 10px;
     box-shadow: 10px;
-    outline: black 4px;
-    outline-style: dashed;
+    outline: rgb(0, 0, 0) 4px;
+    outline-style: solid;
+    box-shadow: 20px 20px #7b8fb3;
+    padding: 5%;
     width: 500px;
-    height: 900px;
+    height: 860px;
+    overflow: hidden;
+} 
+
+.inInBox{
+    position: relative;
+    flex: 1;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-color:#1f1f20;
+    background-position: center;      
+    border-radius: 10px;
+    box-shadow: 10px;
+    width: 500px;
+    height: 375px;
     overflow: hidden;
 } 
