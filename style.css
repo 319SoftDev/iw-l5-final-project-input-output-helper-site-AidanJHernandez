@@ -15,9 +15,9 @@ body {
     text-align: center;
     background-image:url('paperbg.png');
     background-position: center;      
-    border-radius: 10px;
+    border-radius: 0px;
     width: 700px;
-    height: 2000px;
+    height: 3000px;
     overflow: hidden;
 } 
 
