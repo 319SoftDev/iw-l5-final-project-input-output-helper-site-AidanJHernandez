@@ -16,9 +16,6 @@ const displayAnswer = (e) => {
     <p><img src="radioSS2.png" alt="JavaScript Code" width="450" height="245"></p></div>
     <p>The total outcome of these lines of code result in the ability to not only change text, but continously change it. Go ahead and choose another answer! ;D</p>`
 
-radioInput.addEventListener('change', displayAnswer);
-
-
     } else if (Answer == "2"){
     radioOutput1.innerHTML = `<p>You picked 2! 😮</p>`
     radioOutput2.innerHTML = 
@@ -53,3 +50,22 @@ radioInput.addEventListener('change', displayAnswer);
 };
 
 radioInput.addEventListener('change', displayAnswer);
+
+
+
+const Output1 = document.querySelector("#checkbox");
+const Input = document.querySelector("#answer");
+
+const checkOff = (e) => { 
+    const check = e.target.value;
+
+    (check == "1"){
+    Output1.innerHTML = 
+    `<p>Neat, right? How did the "Choose One." text change?</p>
+    <p style="transform: translate(0%, -40%)">Well, lemme show you. :D</p>
+    <h6 style="transform: translate(0%, 100%)">(HTML & JavaScript shown respectively.)</h6>
+    <div class = inInBox><p><img src="radioSS1.png" alt="HTML Code" width="450" height="80"></p>
+    <p><img src="radioSS2.png" alt="JavaScript Code" width="450" height="245"></p></div>
+    <p>The total outcome of these lines of code result in the ability to not only change text, but continously change it. Go ahead and choose another answer! ;D</p>`
+     }
+Input.addEventListener('change', checkOff);
