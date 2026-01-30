@@ -20,7 +20,7 @@ radioInput.addEventListener('change', displayAnswer);
 
 
     } else if (Answer == "2"){
-    radioOutput1.innerHTML = `<p>You picked 2! </p>`
+    radioOutput1.innerHTML = `<p>You picked 2! 😮</p>`
     radioOutput2.innerHTML = 
     `<p>Neat, right? How did the "Choose One." text change?</p>
     <p style="transform: translate(0%, -40%)">Well, lemme show you. :D</p>
@@ -30,7 +30,7 @@ radioInput.addEventListener('change', displayAnswer);
     <p>The total outcome of these lines of code result in the ability to not only change text, but continously change it. Go ahead and choose another answer! ;D</p>`
 
     } else if (Answer == "3"){
-    radioOutput1.innerHTML = `<p>You picked 3! </p>`
+    radioOutput1.innerHTML = `<p>You picked 3! 🫣</p>`
     radioOutput2.innerHTML = 
     `<p>Neat, right? How did the "Choose One." text change?</p>
     <p style="transform: translate(0%, -40%)">Well, lemme show you. :D</p>
