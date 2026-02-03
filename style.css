@@ -1,10 +1,9 @@
 
 body {
   margin: 0px;
-  font-family:'Courier New', Courier, monospace, 'Times New Roman', Times, serif, sans-serif, Arial;
+  font-family: sans-serif, Arial;
   background: rgb(0, 0, 0);
   color:black;
-  font-weight: bolder;
 }
 
 .box{
@@ -29,7 +28,7 @@ body {
     margin-top: 6vh;
     align-items: center;
     text-align: center;
-    background-color:#f0f5ff;
+    background-color:#f9fbff;
     background-position: center;      
     border-radius: 10px;
     box-shadow: 10px;
@@ -39,21 +38,6 @@ body {
     padding: 5%;
     margin-bottom: 10%;
     width: 500px;
-    height: 860px;
-    overflow: hidden;
-} 
-
-.inInBox{
-    position: relative;
-    flex: 1;
-    margin: auto;
-    align-items: center;
-    text-align: center;
-    background-color:#000000;
-    background-position: center;      
-    border-radius: 10px;
-    box-shadow: 10px;
-    width: 500px;
-    height: 375px;
+    height: 400px;
     overflow: hidden;
 } 
