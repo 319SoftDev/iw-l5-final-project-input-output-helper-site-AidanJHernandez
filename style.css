@@ -17,7 +17,7 @@ body {
     background-position: center;      
     border-radius: 0px;
     width: 700px;
-    height: 3000px;
+    height: 800px;
     overflow: hidden;
 } 
 
@@ -34,7 +34,7 @@ body {
     box-shadow: 10px;
     outline: rgb(0, 0, 0) 4px;
     outline-style: solid;
-    box-shadow: 20px 20px #7b8fb3;
+    box-shadow: 15px 15px #c9d5eb;
     padding: 5%;
     margin-bottom: 10%;
     width: 500px;
