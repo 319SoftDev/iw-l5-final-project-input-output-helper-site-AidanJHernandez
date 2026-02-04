@@ -7,42 +7,33 @@ const displayAnswer = (e) => {
     const Answer = e.target.value;
 
      if (Answer == "1"){
-    radioOutput1.innerHTML = `<p>🍎✓</p>`
+    radioOutput1.innerHTML = `<p>🌳✓</p>`
     radioOutput2.innerHTML = 
-    `<p>Very fruity of you.</p>`
+    `<p>Are you the same person who likes veggies?</p>`
     radioOutput3.innerHTML = 
     `<p>Next Question</p>`
 
     } else if (Answer == "2"){
-    radioOutput1.innerHTML = `<p>🥦✓</p>`
+    radioOutput1.innerHTML = `<p>🎮✓</p>`
     radioOutput2.innerHTML = 
-    `<p>I mean, alright.</p>`
+    `<p><img src="job.png" alt="Code" width="100" height="55"></p>`
     radioOutput3.innerHTML = 
     `<p>Next Question</p>`
 
     } else if (Answer == "3"){
-    radioOutput1.innerHTML = `<p>🥩✓</p>`
+    radioOutput1.innerHTML = `<p>❓✓</p>`
     radioOutput2.innerHTML = 
-   `<p>You're either very buff, very fat, or both.</p>`
+   `<p>Stop hiding secrets from me.</p>`
     radioOutput3.innerHTML = 
     `<p>Next Question</p>`
 
     } else if (Answer == "4"){
-    radioOutput1.innerHTML = `<p>🍞✓</p>`
+    radioOutput1.innerHTML = `<p>✓</p>`
     radioOutput2.innerHTML = 
-    `<p>Side question. How much bread do you eat in a day?</p>`
-    radioOutput3.innerHTML = 
-    `<p>Next Question</p>`
-    
-    } else if (Answer == "5"){
-    radioOutput1.innerHTML = `<p>🐄✓</p>`
-    radioOutput2.innerHTML = 
-    `<p>🐄</p>`
+    `<p>Ok.</p>`
     radioOutput3.innerHTML = 
     `<p>Next Question</p>`
     }
-
-
 };
 
 

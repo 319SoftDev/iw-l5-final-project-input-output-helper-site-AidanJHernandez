@@ -21,6 +21,21 @@ body {
     overflow: hidden;
 } 
 
+.box2{
+    position: relative;
+    flex: 1;
+    margin: auto;
+    margin-top: 6vh;
+    align-items: center;
+    text-align: center;
+    background-image:url('paperbg.png');
+    background-position: center;      
+    border-radius: 0px;
+    width: 700px;
+    height: 870px;
+    overflow: hidden;
+} 
+
 .inBox{
     position: relative;
     flex: 1;
