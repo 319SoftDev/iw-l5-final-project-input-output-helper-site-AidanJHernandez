@@ -16,7 +16,7 @@ const displayAnswer = (e) => {
     } else if (Answer == "2"){
     radioOutput1.innerHTML = `<p>👨‍❤️‍💋‍👨✓</p>`
     radioOutput2.innerHTML = 
-    `<h1>I KNEW IT!! AHA</h1>`
+    `<h1>I KNEW IT!! I KNEW IT I KNEW IT I KNEW IT</h1>`
     radioOutput3.innerHTML = 
     `<p>Next Question</p>`
 
