@@ -19,9 +19,9 @@ const displaySubmit = (e) => {
     `<p>Next Question</p>`
     } 
     else if (Submit == "2") {
-    textOutput1.innerHTML = `<p>🤬✓</p>`
+    textOutput1.innerHTML = `<p>...✓</p>`
     textOutput2.innerHTML = 
-    `<p>I think you just have low self esteem. Or you're that one guy with the island... or the orange man.</p>`
+    `<p>I think you just have low self esteem.</p>`
     textOutput3.innerHTML = 
     `<p>Next Question</p>`
 
