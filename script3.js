@@ -23,7 +23,7 @@ const displayAnswer = (e) => {
     } else if (Answer == "3"){
     radioOutput1.innerHTML = `<p>🤝✓</p>`
     radioOutput2.innerHTML = 
-   `<p>Experimental. Cool.</p>`
+   `<p>Neat.</p>`
     radioOutput3.innerHTML = 
     `<p>Next Question</p>`
 
